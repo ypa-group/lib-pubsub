@@ -1,0 +1,21 @@
+# Python build artifacts
+*.pyc
+__pycache__
+*.pyo
+*.pyd
+*.egg-info
+dist/
+build/
+*.egg
+
+# IDE / editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment files
+.env
+.venv
+env/
+venv/
