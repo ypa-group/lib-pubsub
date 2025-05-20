@@ -4,7 +4,7 @@ from typing import List, Dict, Any
 import aiohttp
 
 
-class AsyncPubSubPublisher:
+class AsyncYpaPubSubPublisher:
     def __init__(
         self,
         project_id: str,
@@ -15,12 +15,12 @@ class AsyncPubSubPublisher:
         self.topic_name = topic_name
         self.host = host
         self.session = None
-    
+
     @property
     def base_url(self) -> str:
         """The base URL for the PubSub."""
         return f"{self.host}/v1"
-    
+
     @property
     def topic_path(self) -> str:
         """The path to the topic."""

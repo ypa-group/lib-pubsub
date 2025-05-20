@@ -1,7 +1,7 @@
 [project]
-name = "async_python_pubsub"
+name = "ypa_pubsub"
 version = "0.1.0"
-description = "An asynchronous library for Google Cloud Pub/Sub"
+description = "YPA's library for Google Cloud Pub/Sub"
 authors = [
     { name = "Technochezh", email = "technochezh@gmail.com" }
 ]
@@ -12,8 +12,8 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/ypa-group/async_python_pubsub"
-Repository = "https://github.com/ypa-group/async_python_pubsub.git"
+Homepage = "https://github.com/ypa-group/lib-pubsub"
+Repository = "https://github.com/ypa-group/lib-pubsub.git"
 
 [build-system]
 requires = ["setuptools>=61.0", "wheel"]

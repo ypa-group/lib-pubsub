@@ -1,8 +1,8 @@
-# Async Python PubSub
+# YPA's Python PubSub
 
-An asynchronous library for Google Cloud Pub/Sub using aiohttp.
+YPA's library for Google Cloud Pub/Sub.
 
 ## Installation
 
 ```bash
-pip install git+https://github.com/ypa-group/async_python_pubsub.git 
+pip install git+https://github.com/ypa-group/lib-pubsub.git 
